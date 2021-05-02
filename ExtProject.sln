@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtProject", "ExtProject.csproj", "{6B716A4E-6C9C-4459-A162-CE671B80FBD9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0} = {39722E3F-F9AA-46F8-85D8-2272252AE9D0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TarkyDriver", "TarkyDriver\TarkyDriver.vcxproj", "{39722E3F-F9AA-46F8-85D8-2272252AE9D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|ARM.Build.0 = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|x64.Build.0 = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Debug|x86.Build.0 = Debug|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|ARM.ActiveCfg = Release|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|ARM.Build.0 = Release|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|ARM64.Build.0 = Release|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|x64.ActiveCfg = Release|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|x64.Build.0 = Release|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B716A4E-6C9C-4459-A162-CE671B80FBD9}.Release|x86.Build.0 = Release|Any CPU
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Debug|ARM.ActiveCfg = Debug|Win32
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Debug|x64.ActiveCfg = Debug|x64
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Debug|x64.Build.0 = Debug|x64
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Debug|x86.ActiveCfg = Debug|Win32
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Debug|x86.Build.0 = Debug|Win32
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Release|ARM.ActiveCfg = Release|Win32
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Release|ARM64.ActiveCfg = Release|Win32
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Release|x64.ActiveCfg = Release|x64
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Release|x64.Build.0 = Release|x64
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Release|x86.ActiveCfg = Release|Win32
+		{39722E3F-F9AA-46F8-85D8-2272252AE9D0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {449FACE8-C7B7-460D-8D00-7A4B01383360}
+	EndGlobalSection
+EndGlobal

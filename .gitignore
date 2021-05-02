@@ -1,0 +1,8 @@
+bin
+debug
+obj
+packages
+x64
+TarkyDriver/x64
+TarkyDriver/Debug
+TarkyDriver/Release
